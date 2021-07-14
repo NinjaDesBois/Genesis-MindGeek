@@ -1,0 +1,221 @@
+body {
+    text-align: center;
+    margin: 0%;
+}
+
+main {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+header>img {
+    margin-bottom: 10%;
+}
+
+nav {
+    font-size: 2em;
+    margin-bottom: 5%;
+}
+
+nav>a>i {
+    margin-top: 5%;
+    height: 100%;
+    width: 100%;
+    color: rgb(251, 137, 160);
+}
+
+main i {
+    color: rgb(251, 137, 160);
+    font-size: 3em;
+}
+
+nav>a {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Candal', sans-serif;
+    font-size: 0.8em;
+    margin-top: 10%;
+}
+
+menu {
+    background-image: url(./img/background.jpg);
+    background-position: center;
+    height: 28em;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0%;
+    font-family: 'Candal', sans-serif;
+    padding: 5% 5%;
+}
+
+.recherche {
+    background-color: rgba(251, 137, 160);
+    height: 2em;
+    font-size: 2em;
+    text-align: left;
+    padding-left: 10%;
+    padding-top: 2%;
+    color: rgb(255, 200, 209);
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    margin-top: 10%;
+    font-size: 3em;
+}
+
+header>menu>p {
+    font-size: 1.8em;
+}
+
+h2 {
+    /* border-style: dotted; */
+    border: 1px dashed black;
+    border-bottom-color: white;
+    font-size: 1.6em;
+    padding-top: 4%;
+    font-family: 'Candal', sans-serif;
+    color: rgb(29, 66, 75);
+}
+
+h3 {
+    color: rgb(251, 137, 160);
+    font-size: 1.6em;
+    font-family: 'Candal', sans-serif;
+}
+
+h4 {
+    font-size: 1.4em;
+    color: rgb(251, 137, 160);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.carte1 p {
+    text-align: left;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 1.2em;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(29, 66, 75);
+}
+
+.carte2 p {
+    text-align: left;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 1.2em;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(29, 66, 75);
+}
+
+.carte2 {
+    margin-bottom: 7%;
+    margin-top: 5%;
+}
+
+footer {
+    padding-top: 7%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(33, 62, 78);
+    color: white;
+}
+
+footer>a {
+    margin: 2% 0%;
+    color: white;
+    font-family: 'Candal', sans-serif;
+    text-decoration: none;
+}
+
+footer>p {
+    margin: 1% 10% 0% 10%;
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 3%;
+}
+
+footer>img {
+    display: flex;
+    align-self: center;
+    height: 5%;
+    width: 5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.serviceM {
+    text-decoration: none;
+}
+
+.serviceM:visited {
+    color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav a:visited {
+    color: black;
+}
+
+a:hover {
+    background-color: rgba(251, 137, 160, 0.1);
+    border-radius: 15%;
+    padding: 1%;
+}
+
+
+/* Version pour Desktop */
+
+@media screen and (min-width: 1200px) {
+    header>div>img {
+        float: left;
+        margin-left: 2%;
+    }
+    nav {
+        margin-right: 0%;
+    }
+    nav>a {
+        margin: 1% 1% 0% 1%;
+    }
+    header>div>nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    footer {
+        display: block;
+        margin: 0%;
+        padding-top: 3%;
+    }
+    footer>a {
+        margin: 0% 2%;
+        color: white;
+    }
+    footer>p>a {
+        color: white;
+        text-decoration: none;
+    }
+    footer>img {
+        padding-top: 2%;
+        padding-bottom: 2%;
+        margin: 0 auto;
+    }
+    .solutions {
+        display: flex;
+        margin-top: 10%;
+    }
+    .hebergement {
+        display: flex;
+        margin-top: 10%;
+    }
+}

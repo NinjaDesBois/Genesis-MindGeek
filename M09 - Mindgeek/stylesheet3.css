@@ -1,0 +1,208 @@
+   body {
+       margin: 0;
+   }
+   
+   header img {
+       display: block;
+       margin: auto;
+   }
+   
+   nav {
+       font-size: 2em;
+       margin-bottom: 5%;
+       text-align: center;
+   }
+   
+   nav>a>i {
+       margin-top: 5%;
+       height: 100%;
+       width: 100%;
+       color: rgb(251, 137, 160);
+   }
+   
+   nav>a {
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       font-family: 'Candal', sans-serif;
+       font-size: 0.8em;
+       margin-top: 10%;
+   }
+   
+   .recherche {
+       background-color: rgba(251, 137, 160);
+       height: 2em;
+       font-size: 2em;
+       text-align: left;
+       padding-left: 10%;
+       padding-top: 2%;
+       color: rgb(255, 200, 209);
+       font-family: 'Open Sans', sans-serif;
+       margin-bottom: 10%;
+   }
+   
+   footer {
+       padding-top: 7%;
+       display: flex;
+       flex-direction: column;
+       background-color: rgb(33, 62, 78);
+       color: white;
+   }
+   
+   footer a {
+       margin: 2% 0%;
+       color: white;
+       font-family: 'Candal', sans-serif;
+       text-decoration: none;
+   }
+   
+   footer>p {
+       margin: 1% 10% 0% 10%;
+       font-family: 'Open Sans', sans-serif;
+       padding-bottom: 3%;
+       color: white;
+   }
+   
+   footer>img {
+       display: flex;
+       align-self: center;
+       height: 5%;
+       width: 5%;
+       margin-top: 2%;
+       margin-bottom: 2%;
+   }
+   
+   .introd {
+       margin-left: 15%;
+       margin-right: 15%;
+       line-height: 170%;
+   }
+   
+   .introd>p {
+       margin: 10% 4%;
+       font-size: 1.1em;
+       font-weight: 100;
+       color: rgb(107, 112, 108);
+   }
+   
+   .card {
+       margin-left: 15%;
+       margin-right: 15%;
+       border: 1px dashed black;
+       margin-bottom: 5%;
+       padding: 2%;
+       text-align: left;
+       font-family: 'Open Sans', sans-serif;
+       color: rgb(107, 112, 108);
+       line-height: 170%;
+   }
+   
+   h1 {
+       text-align: center;
+       border: 1px dashed black;
+       border-bottom: none;
+       padding: 1%;
+       font-family: 'Candal', sans-serif;
+       font-size: 1.8em;
+       padding: 5%;
+   }
+   
+   h2 {
+       text-align: center;
+       background-color: rgb(33, 62, 78);
+       padding: 5%;
+       color: white;
+       font-family: 'Candal', sans-serif;
+       font-size: 1.2em;
+   }
+   
+   h3 {
+       text-align: center;
+       color: rgb(107, 112, 108);
+       font-family: 'Candal', sans-serif;
+       font-size: 1.2em;
+   }
+   
+   li {
+       list-style: circle;
+   }
+   
+   button {
+       padding: 3% 41.5%;
+       background-color: rgb(251, 139, 155);
+       border: none;
+       color: white;
+       font-family: 'Candal', sans-serif;
+   }
+   
+   footer {
+       text-align: center;
+   }
+   
+   a {
+       text-decoration: none;
+   }
+   
+   nav a:visited {
+       color: black;
+   }
+   
+   a:hover {
+       background-color: rgba(251, 137, 160, 0.1);
+       border-radius: 15%;
+       padding: 1%;
+   }
+   
+   @media screen and (min-width: 1200px) {
+       .board {
+           display: flex;
+       }
+       .card {
+           width: 25%;
+           height: 20%;
+           margin: 2% 2%;
+       }
+       button {
+           padding: 3% 37%;
+       }
+       .introd>p {
+           margin: 5% 10%;
+       }
+       header>div>img {
+           float: left;
+           margin-left: 2%;
+       }
+       nav {
+           margin-right: 0%;
+       }
+       nav>a {
+           margin: 1% 1% 0% 1%;
+       }
+       header>div>nav {
+           display: flex;
+           flex-wrap: wrap;
+           justify-content: space-around;
+           text-align: center;
+       }
+       footer {
+           display: block;
+           margin: 0%;
+           padding-top: 3%;
+       }
+       footer>a {
+           margin: 0% 2%;
+           color: white;
+       }
+       footer>p>a {
+           color: white;
+           text-decoration: none;
+       }
+       footer>img {
+           padding-top: 2%;
+           padding-bottom: 2%;
+           margin: 0 auto;
+       }
+       .recherche {
+           margin-bottom: 5%;
+       }
+   }
